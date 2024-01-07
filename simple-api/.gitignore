@@ -1,0 +1,14 @@
+yarn-error.log
+node_modules
+dist
+build
+/secrets
+**/**/.DS_Store
+**/.nyc_output/
+**/coverage/
+**/tmp/
+.env
+.env.*
+.envrc
+.idea/
+.zshrc
