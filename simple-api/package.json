@@ -4,6 +4,11 @@
   "main": "index.js",
   "author": "Taiwo Sokunbi",
   "license": "MIT",
+  "scripts": {
+    "start": "tsc && node --unhandled-rejections=strict ./dist/app.js",
+    "debug": "export DEBUG=* && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "debug": "^4.3.4",
